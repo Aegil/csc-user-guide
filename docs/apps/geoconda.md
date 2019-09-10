@@ -4,7 +4,7 @@ Geoconda is a collection of python packages that facilitate the
 development of python scripts for geoinformatics applications. It
 includes following python packages:
 
--   [ArcGIS Python API](https://developers.arcgis.com/python/) - provides simple and efficient tools for sophisticated vector and raster analysis, geocoding, map making, routing and directions. 
+-   (ArcGIS Python API)[https://developers.arcgis.com/python/] - provides simple and efficient tools for sophisticated vector and raster analysis, geocoding, map making, routing and directions. 
 -   [cartopy] - for map plotting (not included in GeoPython).
 -   [descartes] - use Shapely or GeoJSON-like geometric objects as
     matplotlib paths and patches.
@@ -34,7 +34,7 @@ includes following python packages:
 -   [scikit-learn] - machine learning for Python.
 -   [skimage] -  algorithms for image processing.</span>
 -   [SQLAlchemy] for working with spatial databases, primarly PostGIS.
--   [xarray](http://xarray.pydata.org) - for multidimensional raster data 
+-   (xarray)[http://xarray.pydata.org] - for multidimensional raster data 
 -   And many more, for retrieving the full list in Puhti use:
     `list-packages`
 
@@ -43,11 +43,11 @@ Additionally geoconda includes:
 -   [spyder] - Scientific PYthon Development EnviRonment with graphical
     interface (similar to RStudio for R). If you want to use Spyer, you
     should connect to Puhti using -X connection.
--   (GDAL/OGR)[GDAL] commandline tools 2.4.2 
--   (QGIS)[QGIS] 3.8.1
--   (LasTools)[LasTools] 20171231
--   (ncview)[http://cirrus.ucsd.edu/~pierce/software/ncview/quick_intro.html] for visualizing netcdf files
--   proj4, geos and many more, see /appl/soft/geo/geoconda/miniconda3/envs/geoconda-3.7/bin for full
+-   [GDAL/OGR](GDAL) commandline tools 2.4.2 
+-   [QGIS](QGIS) 3.8.1
+-   [LasTools](LasTools) 20171231
+-   [ncview](http://cirrus.ucsd.edu/~pierce/software/ncview/quick_intro.html) for visualizing netcdf files
+-   proj4, geos and many more, see `/appl/soft/geo/geoconda/miniconda3/envs/geoconda-3.7/bin`for full
     list.
 
 Python has also packages for parallel computing, for example
@@ -95,7 +95,7 @@ You can add more Python packages to Geoconda for your own use with `pip`, for ex
 TODO: The packages are installed to your home directory under
 `.local/lib/python3.6 or .local/lib/python3.7`
 
-If you would like to make a own conda enviroment, it is recommended to make also own (Miniconda installation)[../#support/tutorials/conda/]. Or then you can use (bioconda)[bioconda].
+If you would like to make a own conda enviroment, it is recommended to make also own [Miniconda installation](../#support/tutorials/conda/). Or then you can use [bioconda](bioconda).
 
 ------------------------------------------------------------------------
 
