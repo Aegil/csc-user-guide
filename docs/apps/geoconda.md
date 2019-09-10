@@ -8,16 +8,14 @@ includes following python packages:
 -   [cartopy] - for map plotting (not included in GeoPython).
 -   [descartes] - use Shapely or GeoJSON-like geometric objects as
     matplotlib paths and patches.
--   **[fiona]** - reads and writes spatial data files.
+-   [fiona] - reads and writes spatial data files.
 -   [gdal] - reads and writes spatial data files, and GDAL/OGR data
     manipulation tools.
--   [geoalchemy2]  - provides extensions to
--   [igraph]
+-   [geoalchemy2]  - provides extensions to [SQLAlchemy] for working with spatial databases, primarly PostGIS.
+-   [igraph](https://igraph.org/python/) - for fast routing.
 -   **[geopandas]** - GeoPandas extends the datatypes used by [pandas.]
--   [laspy] - reading and writing .las and .laz files.
 -   [networkx] - for the creation, manipulation, and study of the
     structure, dynamics, and functions of complex networks.
--   [pyfor] - lidar analysis for forestry purposes.
 -   [pyproj] - performs cartographic transformations and geodetic
     computations.
 -   [osmnx] - download spatial geometries and
@@ -33,7 +31,6 @@ includes following python packages:
     Cartesian plane.
 -   [scikit-learn] - machine learning for Python.
 -   [skimage] -  algorithms for image processing.</span>
--   [SQLAlchemy] for working with spatial databases, primarly PostGIS.
 -   [xarray](http://xarray.pydata.org) - for multidimensional raster data 
 -   And many more, for retrieving the full list in Puhti use:
     `list-packages`
@@ -128,12 +125,10 @@ In your publications please acknowledge also oGIIR and CSC, for example “The a
   [fiona]: https://pypi.python.org/pypi/Fiona
   [gdal]: https://pypi.python.org/pypi/GDAL
   [geoalchemy2]: https://geoalchemy-2.readthedocs.io/en/latest/
-  [SQLAlchemy]: http://sqlalchemy.org {.reference .external}
+  [SQLAlchemy]: http://sqlalchemy.org 
   [geopandas]: http://geopandas.org/
-  [pandas.]: http://pandas.pydata.org {.reference .external}
-  [laspy]: https://github.com/laspy/laspy
+  [pandas.]: http://pandas.pydata.org 
   [networkx]: https://networkx.github.io/
-  [pyfor]: https://github.com/brycefrank/pyfor
   [pyproj]: https://pypi.python.org/pypi/pyproj?
   [pysal]: http://pysal.readthedocs.io/en/latest/
   [osmnx]: https://osmnx.readthedocs.io/en/stable/index.html
