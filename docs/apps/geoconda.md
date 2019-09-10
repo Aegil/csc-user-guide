@@ -57,7 +57,7 @@ The `geoconda` module is available in Puhti:
 
 
 
-### Usage
+## Usage
 
 ### Using geoconda
 
