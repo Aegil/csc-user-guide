@@ -4,7 +4,7 @@ Geoconda is a collection of python packages that facilitate the
 development of python scripts for geoinformatics applications. It
 includes following python packages:
 
--   (ArcGIS Python API)[https://developers.arcgis.com/python/] - provides simple and efficient tools for sophisticated vector and raster analysis, geocoding, map making, routing and directions. 
+-   [ArcGIS Python API](https://developers.arcgis.com/python/) - provides simple and efficient tools for sophisticated vector and raster analysis, geocoding, map making, routing and directions. 
 -   [cartopy] - for map plotting (not included in GeoPython).
 -   [descartes] - use Shapely or GeoJSON-like geometric objects as
     matplotlib paths and patches.
@@ -34,7 +34,7 @@ includes following python packages:
 -   [scikit-learn] - machine learning for Python.
 -   [skimage] -  algorithms for image processing.</span>
 -   [SQLAlchemy] for working with spatial databases, primarly PostGIS.
--   (xarray)[http://xarray.pydata.org] - for multidimensional raster data 
+-   [xarray](http://xarray.pydata.org) - for multidimensional raster data 
 -   And many more, for retrieving the full list in Puhti use:
     `list-packages`
 
