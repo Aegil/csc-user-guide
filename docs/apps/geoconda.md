@@ -37,15 +37,16 @@ includes following python packages:
 
 Additionally geoconda includes:
 
--   [spyder] - Scientific PYthon Development EnviRonment with graphical
-    interface (similar to RStudio for R). If you want to use Spyer, you
-    should connect to Puhti using -X connection.
+-   [spyder] - Scientific PYthon Development EnviRonment with graphical interface (similar to RStudio for R). 
 -   [GDAL/OGR](GDAL) commandline tools 2.4.2 
 -   [QGIS](QGIS) 3.8.1
 -   [LasTools](LasTools) 20171231
 -   [ncview](http://cirrus.ucsd.edu/~pierce/software/ncview/quick_intro.html) for visualizing netcdf files
 -   proj4, geos and many more, see `/appl/soft/geo/geoconda/miniconda3/envs/geoconda-3.7/bin`for full
     list.
+    
+!!! note
+    If you want to use Spyer, QGIS, ncview or other tools with graphical user interface, you should connect to Puhti using -X connection.
 
 Python has also packages for parallel computing, for example
 **multiprocessing**. In our examples there is two cases using Python
