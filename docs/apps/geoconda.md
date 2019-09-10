@@ -4,6 +4,7 @@ Geoconda is a collection of python packages that facilitate the
 development of python scripts for geoinformatics applications. It
 includes following python packages:
 
+-   [ArcGIS Python API](https://developers.arcgis.com/python/) - provides simple and efficient tools for sophisticated vector and raster analysis, geocoding, map making, routing and directions. 
 -   [cartopy] - for map plotting (not included in GeoPython).
 -   [descartes] - use Shapely or GeoJSON-like geometric objects as
     matplotlib paths and patches.
@@ -11,7 +12,7 @@ includes following python packages:
 -   [gdal] - reads and writes spatial data files, and GDAL/OGR data
     manipulation tools.
 -   [geoalchemy2]  - provides extensions to
-    [SQLAlchemy] for working with spatial databases, primarly PostGIS.
+-   [igraph]
 -   **[geopandas]** - GeoPandas extends the datatypes used by [pandas.]
 -   [laspy] - reading and writing .las and .laz files.
 -   [networkx] - for the creation, manipulation, and study of the
@@ -19,10 +20,10 @@ includes following python packages:
 -   [pyfor] - lidar analysis for forestry purposes.
 -   [pyproj] - performs cartographic transformations and geodetic
     computations.
--   **[pysal]** - spatial analysis functions.
 -   [osmnx] - download spatial geometries and
     construct, project, visualize, and analyze street networks from
     OpenStreetMap's APIs.
+-   **[pysal]** - spatial analysis functions.    
 -   **[rasterio]** - access to geospatial raster data.
 -   [rasterstats] - for summarizing geospatial raster datasets based on
     vector geometries. It includes functions for zonal statistics and
@@ -30,8 +31,10 @@ includes following python packages:
 -   [rtree] - spatial indexing and search.
 -   [shapely] - manipulation and analysis of geometric objects in the
     Cartesian plane.
--   [skimage] -  algorithms for image processing.</span>
 -   [scikit-learn] - machine learning for Python.
+-   [skimage] -  algorithms for image processing.</span>
+-   [SQLAlchemy] for working with spatial databases, primarly PostGIS.
+-   [xarray](http://xarray.pydata.org) - for multidimensional raster data 
 -   And many more, for retrieving the full list in Puhti use:
     `list-packages`
 
@@ -40,9 +43,10 @@ Additionally geoconda includes:
 -   [spyder] - Scientific PYthon Development EnviRonment with graphical
     interface (similar to RStudio for R). If you want to use Spyer, you
     should connect to Puhti using -X connection.
--   GDAL/OGR commandline tools 2.4.2 
--   QGIS 3.8.1
--   lastools 20171231
+-   (GDAL/OGR)[GDAL] commandline tools 2.4.2 
+-   (QGIS)[QGIS] 3.8.1
+-   (LasTools)[LasTools] 20171231
+-   (ncview)[http://cirrus.ucsd.edu/~pierce/software/ncview/quick_intro.html] for visualizing netcdf files
 -   proj4, geos and many more, see /appl/soft/geo/geoconda/miniconda3/envs/geoconda-3.7/bin for full
     list.
 
