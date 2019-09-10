@@ -1,13 +1,5 @@
 # Geoconda
 
-Collection of Python libraries for data analytics and machine learning.
-
-## Available
-
-The `geoconda` module is available in Puhti:
-
-Puhti: 3.7 (version number is the same as Python version)
-
 Geoconda is a collection of python packages that facilitate the
 development of python scripts for geoinformatics applications. It
 includes following python packages:
@@ -48,8 +40,10 @@ Additionally geoconda includes:
 -   [spyder] - Scientific PYthon Development EnviRonment with graphical
     interface (similar to RStudio for R). If you want to use Spyer, you
     should connect to Puhti using -X connection.
--   GDAL/OGR commandline tools and proj
--   And many more, see /appl/soft/geo/geoconda/miniconda3/envs/geoconda-3.7/bin for full
+-   GDAL/OGR commandline tools 2.4.2 
+-   QGIS 3.8.1
+-   lastools 20171231
+-   proj4, geos and many more, see /appl/soft/geo/geoconda/miniconda3/envs/geoconda-3.7/bin for full
     list.
 
 Python has also packages for parallel computing, for example
@@ -59,75 +53,55 @@ multiprocessing: [zonal statistics] and [focal mean].
 (If you think that some important GIS package for Python is missing from
 here, you can ask for installation from servicedesk@csc.fi.)
 
-## License
+## Available
 
-All packages are licensed under various free and open source licenses (FOSS).
+The `geoconda` module is available in Puhti:
 
-## Usage
+* 3.7 (version number is the same as Python version)
 
-To use this software on Puhti, initialize it with:
 
-```text
-module load geoconda
-```
 
 ### Usage
 
-**1. Using packages installed by CSC**
+**1. Using geoconda**
 
-To use software environments that are installed to Taito using Conda
-(either by CSC or yourself),  first load geoconda module:
+For using Pythong packages and other tools listed above, initialize it with:
 
     module load geoconda
 
-This loads latest geoconda module. If you want a specific version you
-can do:
+This loads latest geoconda module. If you want a specific version you can do:
 
     module load geoconda/VERSION
-
-After that you can use Python with GIS packages as with
-[GeoPython.][GeoPython]
 
 For using the Spyder IDE give:
 
 `spyder`
 
+To check the exact packages and versions included in the loaded module:
+
+```text
+list-packages
+```
  
 
-**2. Adding more Python packages to packages included in GeoConda**
+**2. Adding more Python packages to GeoConda**
 
-You can add more packages to your own use, the details can be found from
-[Python] documention.
-
-The packages are installed to your home directory under
+You can add more Python packages to Geoconda for your own use with `pip`, for example:
+`pip install [newPythonPackageName] --user`.
+TODO: The packages are installed to your home directory under
 `.local/lib/python3.6 or .local/lib/python3.7`
 
-The packages installed for GeoPython are not available together with
-GeoConda Python because of different Python versions.
-
- 
-
-**3. Installing software for your own use with geoconda**
-
-You can use the geoconda module to install software to your personal
-Conda environments. Please see [Conda environments] documentation for
-details and CSC [Bioconda] documentation for example. The personal Conda
-environment does not include software included in GeoConda environment.
-The software is installed to:
-
-`/wrk/your_user_name/DONOTREMOVE/geoconda3_env`
+If you would like to make a own conda enviroment, it is recommended to make also own (Miniconda installation)[../#support/tutorials/conda/]. Or then you can use (bioconda)[bioconda].
 
 ------------------------------------------------------------------------
 
-### Discipline
+## License and citing
 
-Geosciences  
-
-------------------------------------------------------------------------
+All packages are licensed under various free and open source licenses (FOSS), see the linked pages above for exact details.
+In your publications please acknowledge also oGIIR and CSC, for example “The authors wish to acknowledge for computational resources CSC – IT Center for Science, Finland (urn:nbn:fi:research-infras-2016072531) and the Open Geospatial Information Infrastructure for Research (oGIIR, urn:nbn:fi:research-infras-2016072513).”
 
 ### References
 
--   [Conda home page][Conda]
 
 [Python spatial] kirjastot.
 
@@ -142,13 +116,6 @@ Geosciences
 
 ------------------------------------------------------------------------
 
-### Support
-
-------------------------------------------------------------------------
-
-### Manual
-
-------------------------------------------------------------------------
 
   [GeoPython]: https://research.csc.fi/-/geopython
   [Conda]: https://conda.io/docs/
