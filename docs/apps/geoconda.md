@@ -59,24 +59,29 @@ The `geoconda` module is available in Puhti:
 
 ### Usage
 
-**1. Using geoconda**
+### Using geoconda
 
 For using Pythong packages and other tools listed above, initialize it with:
+
 `module load geoconda`
 
 By default the latest geoconda module is loaded. If you want a specific version you can specify the version number of geoconda:
+
 `module load geoconda/[VERSION]`
 
 For using the Spyder IDE give:
+
 `spyder`
 
 To check the exact packages and versions included in the loaded module:
+
 `list-packages`
  
 
-**2. Adding more Python packages to GeoConda**
+### Adding more Python packages to GeoConda
 
 You can add more Python packages to Geoconda for your own use with `pip`, for example:
+
 `pip install [newPythonPackageName] --user --target=/projappl/[yourProject]/python3.7/site-packages/`.
 
 If you do not give the installation folder as target, the packages are by default installed to your home directory under
@@ -84,7 +89,6 @@ If you do not give the installation folder as target, the packages are by defaul
 
 If you would like to make a own conda enviroment, it is recommended to make also own [Miniconda installation](../#support/tutorials/conda/). Or then you can use [bioconda](bioconda).
 
-------------------------------------------------------------------------
 
 ## License and citing
 
